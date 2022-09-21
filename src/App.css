@@ -1,0 +1,35 @@
+body {
+    font-family: "DM Sans", sans-serif;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+  
+  /* Container Box */
+  #container {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  #number {
+    font-size: 6rem;
+    font-weight: bold;
+  }
+  
+  /* Button Group */
+  #button-group button {
+    background-color: transparent;
+    padding: 5px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0.5rem;
+  }
+  
+  #button-group button:hover {
+    background: grey;
+    color: white;
+  }
+  
